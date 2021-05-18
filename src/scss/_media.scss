@@ -1,0 +1,684 @@
+@media (max-width: 1199px) {
+    /*
+    Typography
+    */
+
+    .typo-mainttl {
+        @include tbfz(54vw);
+    }
+    .typo-secttl {
+        @include tbfz(47vw);
+        @include tblh(52vw);
+    }
+
+    .typo-circbtn {
+        @include tbfz(14vw);
+        @include tblh(18vw);
+        @include tbls(1.5vw);
+    }
+    .typo-p1 {
+        @include tbfz(22vw);
+        @include tblh(32vw);
+    }
+    .typo-p2 {
+        @include tbfz(17vw);
+        @include tblh(23vw);
+    }
+    .typo-p3 {
+        @include tbfz(14vw);
+        @include tblh(18vw);
+    }
+    .typo-link {
+        @include tbfz(18vw);
+        @include tblh(24vw);
+        @include tbls(2vw);
+    }
+
+    .typo-marquee {
+        @include tbfz(44vw);
+    }
+    .typo-minittl {
+        @include tbfz(30vw);
+        @include tblh(40vw);
+    }
+    .typo-portttl {
+        @include tbfz(39vw);
+    }
+
+    .header-logo {
+        @include tbwidth(120vw);
+        @include tbheight(23vw);
+    }
+    .header-menu__list {
+        display: none;
+    }
+    .header-menu__burger {
+        display: block;
+        @include tbwidth(25vw);
+        @include tbheight(18vw);
+    }
+    .header-sociallinks {
+        display: none;
+    }
+
+    .cursor {
+        display: none;
+    }
+    .container {
+        padding: 0 7%;
+    }
+
+    .mobile-menu__bgtext div {
+        @include tbfz(400vw);
+        @include tblh(310vw);
+    }
+    .mobile-menu__wrapper-nav--el::before {
+        @include tbfz(12vw);
+    }
+    .mobile-menu__wrapper-nav {
+        width: 55%;
+    }
+    .mobile-menu__wrapper-socials a {
+        margin: 1.3vw 0;
+    }
+    .mobile-menu__wrapper-nav--el::before {
+        top: -1.2vw;
+        left: -1.7vw;
+    }
+    .mobile-menu {
+        height: 100vh;
+    }
+    .mobile-menu__container {
+        margin-top: 20vw;
+        height: auto;
+    }
+    .mobile-menu__wrapper {
+        height: 100%;
+    }
+    .mobile-menu__wrapper-nav--el {
+        margin: 3vw 0;
+        line-height: auto;
+    }
+    .mobile-menu__wrapper-nav--el:first-child {
+        margin-top: 0;
+    }
+    .mobile-menu__wrapper-nav--el:last-child {
+        margin-bottom: 0;
+    }
+    .mobile-menu__wrapper-nav--el span {
+        line-height: auto;
+    }
+
+    .works-wrapper__content-el--bottom_link {
+        margin-top: 2vw;
+    }
+
+    .hero {
+        height: auto;
+    }
+    .hero-wrapper {
+        padding-top: 14vw;
+    }
+
+    .hero-wrapper__hey-pic {
+        @include tbwidth(350vw);
+        @include tbheight(462vw);
+    }
+    .hero-wrapper__hey-pic--duo {
+        @include tbwidth(210vw);
+        @include tbheight(210vw);
+        top: -3vw;
+    }
+    .hero-wrapper__hey-who {
+        margin-top: 29vw;
+    }
+
+    .intro {
+        padding-top: 27vw;
+    }
+    .intro-anim {
+        @include tbwidth(120vw);
+        @include tbheight(120vw);
+    }
+
+    // .about-wrapper__background,
+    // .about-wrapper__tap {
+    //     width: 80%;
+    // }
+
+    // .about-wrapper__background-right--el_title {
+    //     margin-bottom: 1.2vw;
+    // }
+    // .about-wrapper__background-right--el {
+    //     margin-bottom: 4vw;
+    // }
+    .about-wrapper__blog {
+        flex-direction: column;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .about-wrapper__blog-learn--txt {
+        width: 70%;
+    }
+    .about-wrapper__blog-learn--video {
+        width: 55vw;
+        height: 31vw;
+        margin-left: auto;
+        margin-right: unset;
+    }
+
+    .about-wrapper__tech-content--wrapper_list-el{
+        width: 8vw;
+    }
+
+    .contact-wrapper__btn {
+        @include dkwidth(400vw);
+        @include dkheight(400vw);
+    }
+
+    .contactForm__cross {
+        right: 6vw;
+        top: 3.5%;
+        @include tbwidth(25vw);
+        @include tbheight(18vw);
+    }
+    .contactForm__hello {
+        @include tbfz(120vw);
+        margin-bottom: 3vw;
+    }
+    .contactForm__cont-submit {
+        @include dkwidth(300vw);
+        @include dkheight(300vw);
+    }
+    .contactForm__cont-submit--cont_btn {
+        @include dkwidth(250vw);
+        @include dkheight(250vw);
+    }
+
+    .contactForm__cont-el {
+        margin-bottom: 8vw;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contactForm__cont-el--input,
+    .contactForm__cont-el--ta {
+        margin-left: 0;
+    }
+
+    .contactForm__cont-el--input,
+    .contactForm__cont-el--ta {
+        @include tbfz(16vw);
+        @include tblh(22vw);
+        @include tbls(0.8vw);
+        @include dkheight(70vw);
+        padding: 0.5em 1.5em;
+    }
+
+    .contactForm__cont-el--wds {
+        @include tbfz(40vw);
+        @include tblh(60vw);
+    }
+
+    // #message-success {
+    //     width: 80%;
+    // }
+    // .message-success__1 {
+    //     @include tbfz(40vw);
+    //     @include tblh(60vw);
+    //     margin-bottom: 5vw;
+    // }
+    // .message-success__2 {
+    //     @include tbfz(30vw);
+    //     @include tblh(40vw);
+    // }
+}
+
+@media (max-width: 767px) {
+    /*
+    Typography
+    */
+
+    .typo-mainttl {
+        @include mbfz(36vw);
+    }
+
+    .typo-secttl {
+        @include mbfz(30vw);
+        @include mblh(34vw);
+    }
+    .typo-circbtn {
+        @include mbfz(14vw);
+        @include mblh(18vw);
+        @include mbls(1vw);
+    }
+    .typo-ss{
+                @include mbfz(10vw);
+        @include mblh(16vw);
+    }
+    .typo-p1 {
+        @include mbfz(17vw);
+        @include mblh(23vw);
+    }
+    .typo-p2 {
+        @include mbfz(14.5vw);
+        @include mblh(21vw);
+    }
+    .typo-p3 {
+        @include mbfz(13vw);
+        @include mblh(19vw);
+    }
+    .typo-link {
+        @include mbfz(14vw);
+        @include mblh(20vw);
+        @include mbls(1vw);
+    }
+
+    .typo-marquee {
+        @include mbfz(34vw);
+    }
+    .typo-minittl {
+        @include mbfz(20vw);
+        @include mblh(28vw);
+    }
+    .typo-portttl {
+        @include mbfz(32vw);
+    }
+
+    .container {
+        padding: 0 10.5%;
+    }
+
+    .header-logo {
+        top: 3.5vw;
+        @include mbwidth(100vw);
+        @include mbheight(20vw);
+    }
+    .header-menu {
+        top: 3.5vw;
+    }
+    .header-menu__burger {
+        @include mbwidth(20vw);
+        @include mbheight(16vw);
+    }
+    .hero-wrapper {
+        width: 100%;
+        padding-top: 20vw;
+    }
+
+    .hero-wrapper__hey-pic {
+        @include mbwidth(210vw);
+        @include mbheight(277vw);
+        margin-top: 0;
+    }
+    .hero-wrapper__hey-pic--duo {
+        @include mbwidth(130vw);
+        @include mbheight(130vw);
+        top: -5vw;
+    }
+
+    .hero-wrapper__hey-who {
+        margin-top: 38vw;
+    }
+
+    .intro {
+        width: 100%;
+        padding-top: 32vw;
+    }
+    .intro-anim {
+        @include mbwidth(100vw);
+        @include mbheight(100vw);
+    }
+    .intro-wrapper {
+        padding-top: 4vw;
+        width: 95%;
+    }
+    .intro-wrapper__main-title {
+        margin-bottom: 4vw;
+    }
+    .intro-wrapper__main-suptitle p:first-child {
+        margin-bottom: 6vw;
+    }
+    .intro-wrapper__main-suptitle p:last-child {
+        width: 70%;
+    }
+    .intro-anim {
+        bottom: -22.5%;
+    }
+
+    .works {
+        margin-top: 35vw;
+    }
+    .about {
+        margin-top: 20vw;
+    }
+    .works-wrapper__title h2,
+    .about-wrapper__title h2 {
+        margin-bottom: 3vw;
+    }
+
+    .works-wrapper__title {
+        width: 100%;
+        margin-bottom: 14vw;
+    }
+
+    .about-wrapper__title {
+        margin-bottom: 5vw;
+    }
+
+    .mobile-menu__wrapper-nav--el::before {
+        @include mbfz(12vw);
+    }
+
+    .hero {
+        height: auto;
+    }
+
+    .about-wrapper__background,
+    .about-wrapper__tap {
+        width: 100%;
+    }
+
+    .about-wrapper__tap {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-top: 0;
+    }
+    .about-wrapper__tap-wds {
+        height: 24vw;
+    }
+
+    .about-wrapper__tap-img {
+        width: 40vw;
+        height: 40vw;
+        min-width: 40vw;
+        min-height: 40vw;
+    }
+
+    .about-wrapper__background-right--el {
+        flex-direction: column;
+        padding-top: 8vw;
+        padding-bottom: 10vw;
+    }
+    .about-wrapper__background-right--el_title,
+    .about-wrapper__background-right--el_descr {
+        width: 100%;
+    }
+    .about-wrapper__background-right--el_title {
+        margin-bottom: 3vw;
+    }
+
+    .about-wrapper__background-right--el_title-circle {
+        width: 2vw;
+        height: 2vw;
+        top: -3vw;
+        left: 0vw;
+    }
+
+    .about-wrapper__background {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-wrapper__background-left {
+        position: relative;
+        transform: translateY(0);
+        margin-bottom: 5vw;
+        width: 100%;
+    }
+    .about-wrapper__background-right {
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .about-wrapper__blog {
+        width: 100%;
+        padding-top: 10vw;
+        position: relative;
+        &::before {
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 0;
+            width: 70%;
+            height: 1px;
+            background-color: #fff;
+            opacity: 0.3;
+        }
+    }
+    .about-wrapper__blog-learn--txt {
+        width: 85%;
+    }
+    .about-wrapper__blog-learn--video {
+        width: 65vw;
+        height: 36.6vw;
+    }
+    .about-wrapper__tech-head{
+        margin-bottom: 3vw;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .about-wrapper__tech-head--title{
+        margin-bottom: 1vw;
+    }
+    .about-wrapper__tech-content--wrapper_list-el{
+        width: 14vw;
+    }
+        .about-wrapper__tech-content--wrapper_list-el:hover{
+            opacity: 0.3;
+        }
+
+    .contact{
+        padding-bottom: 0;
+        margin-top: 20vw;
+        margin-bottom: 15vw;
+    }
+    .contact-line {
+        width: 11vw;
+        height: 7.8vw;
+    }
+
+    .contactForm__cross {
+        @include mbwidth(20vw);
+        @include mbheight(16vw);
+        // top: 0;
+    }
+
+    .works-wrapper__content-el--bottom_link span::after {
+        bottom: -2vw;
+        left: -2vw;
+        width: 2vw;
+        height: 2vw;
+    }
+    .works-wrapper__content-el:nth-child(2) {
+        margin-top: 35vw;
+    }
+
+    .contact-wrapper {
+        width: 100%;
+        align-items: flex-start;
+    }
+
+    .contact-wrapper__cont-el--input,
+    .contact-wrapper__cont-el--ta {
+        @include mbfz(16vw);
+        @include mblh(24vw);
+    }
+    .contact-wrapper__btn {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .contact-wrapper__txt {
+        width: 75%;
+        margin-right: auto;
+    }
+
+    .contact-wrapper__btn {
+        @include dkwidth(400vw);
+        @include dkheight(400vw);
+    }
+    .contact-wrapper__txt-top {
+        margin-bottom: 6vw;
+    }
+    // .contact-wrapper__txt-bottom{
+    //     flex-direction: column;
+    // }
+    .contact-wrapper__txt-bottom--social_el {
+        margin: 1.7vw 0;
+    }
+
+    .works-wrapper__content-el--bottom_descr {
+        margin-bottom: 3vw;
+    }
+    .works-wrapper__content-el--bottom {
+        margin-top: 10vw;
+    }
+
+    .works-wrapper__content {
+        grid-template-columns: 1fr;
+        grid-gap: 0 0;
+    }
+
+    .works-wrapper__content-el--top_title {
+        left: -12vw;
+    }
+
+    .works-wrapper__content-el:nth-child(1) {
+        margin-left: 10%;
+        width: 60vw;
+    }
+    .works-wrapper__content-el:nth-child(1) .works-wrapper__content-el--top {
+        height: 70vw;
+    }
+
+    .works-wrapper__content-el:nth-child(2) {
+        width: 65vw;
+        margin-left: auto;
+        margin-bottom: 15vw;
+    }
+
+    .works-wrapper__content-el:nth-child(2) .works-wrapper__content-el--top {
+        height: 75vw;
+    }
+
+    .works-wrapper__content-el:nth-child(2) .works-wrapper__content-el--welcome {
+        right: 5vw;
+        top: -45vw;
+    }
+
+    .works-wrapper__content-el--welcome_main {
+        @include dkwidth(400vw);
+        @include dkheight(400vw);
+    }
+
+    .works-wrapper__content-el:nth-child(3) {
+        top: 0;
+        margin-left: 10%;
+        width: 60vw;
+    }
+
+    .works-wrapper__content-el:nth-child(3) .works-wrapper__content-el--top {
+        height: 70vw;
+    }
+
+    .works-wrapper__content-el:nth-child(3) .works-wrapper__content-el--welcome {
+        left: 0;
+        bottom: -45vw;
+        display: none;
+    }
+
+    .works-wrapper__title-line,
+    .about-wrapper__title-line {
+        width: 100%;
+    }
+
+    .works-wrapper__content-el:nth-child(4) {
+        margin-left: auto;
+        width: 65vw;
+    }
+
+    .works-wrapper__content-el:nth-child(4) .works-wrapper__content-el--top {
+        height: 75vw;
+    }
+
+    .works-wrapper__content-el:nth-child(5) {
+        margin-left: 10%;
+        width: 60vw;
+        margin-top: 18vw;
+    }
+
+    .works-wrapper__content-el:nth-child(5) .works-wrapper__content-el--top {
+        height: 70vw;
+    }
+
+    .mobile-menu__container {
+        margin-top: 30vw;
+    }
+    .mobile-menu__bgtext div {
+        @include mbfz(220vw);
+        @include mblh(170vw);
+    }
+    .mobile-menu__wrapper-nav--el::before {
+        top: -2.2vw;
+        left: -2.7vw;
+    }
+
+    /*
+    ************* Contact *************
+    */
+
+    .contactForm__hello {
+        @include mbfz(84vw);
+    }
+
+    .contactForm__cont-el:last-child .contactForm__cont-el--wds {
+        margin-bottom: 5vw;
+    }
+    .contactForm__cont-el--wds {
+        @include mbfz(30vw);
+        @include mblh(30vw);
+        margin-bottom: 2vw;
+    }
+    .contactForm__cont-el--input,
+    .contactForm__cont-el--ta {
+        margin: 0;
+        padding: 1.2em 1em;
+        @include dkheight(180vw);
+        @include mbfz(16vw);
+        @include mblh(16vw);
+    }
+    .contactForm__cont-el {
+        margin-bottom: 8vw;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .contactForm__cont-submit {
+        @include dkwidth(400vw);
+        @include dkheight(400vw);
+    }
+
+    // #message-success {
+    //     width: 100%;
+    // }
+    // .message-success__1 {
+    //     @include mbfz(30vw);
+    //     @include mblh(30vw);
+    //     margin-bottom: 8vw;
+    // }
+    // .message-success__2 {
+    //     @include mbfz(24vw);
+    //     @include mblh(30vw);
+    // }
+    // #message-success a::after {
+    //     bottom: -2vw;
+    //     right: -2vw;
+    //     width: 2vw;
+    //     height: 2vw;
+    // }
+}
+
+@media (max-width: 1024px) and (min-width: 360px) and (orientation: landscape) {
+    .vpnotification {
+        display: block;
+    }
+}

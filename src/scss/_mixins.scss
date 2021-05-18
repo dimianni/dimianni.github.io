@@ -1,0 +1,67 @@
+
+@mixin dkheight($v) {
+    height: ($v/1200) * 100;
+}
+
+@mixin dkwidth($v) {
+    width: ($v/1200) * 100;
+}
+
+@mixin dkfz($v) {
+    font-size: ($v/1200) * 100;
+}
+
+@mixin dklh($v) {
+    line-height: ($v/1200) * 100;
+}
+
+@mixin dkls($v) {
+    letter-spacing: ($v/1200) * 100;
+}
+
+
+
+@mixin tbheight($v) {
+    height: ($v/768) * 100;
+}
+
+@mixin tbwidth($v) {
+    width: ($v/768) * 100;
+}
+
+@mixin tbfz($v) {
+    font-size: ($v/768) * 100;
+}
+
+@mixin tblh($v) {
+    line-height: ($v/768) * 100;
+}
+
+@mixin tbls($v) {
+    letter-spacing: ($v/768) * 100;
+}
+
+
+@mixin mbheight($v) {
+    height: ($v/375) * 100;
+}
+
+@mixin mbwidth($v) {
+    width: ($v/375) * 100;
+}
+
+@mixin mbfz($v) {
+    font-size: ($v/375) * 100;
+}
+
+@mixin mblh($v) {
+    line-height: ($v/375) * 100;
+}
+
+@mixin mbls($v) {
+    letter-spacing: ($v/375) * 100;
+}
+
+@mixin transition {
+    transition: all 0.35s cubic-bezier(0.3, 0.86, 0.36, 0.95);
+}

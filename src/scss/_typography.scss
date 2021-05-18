@@ -1,0 +1,83 @@
+.typo-mainttl {
+    @include dkfz(65vw);
+    font-weight: 500;
+}
+
+.typo-secttl {
+    @include dkfz(60vw);
+    font-weight: 500;
+    // color: #fff;
+}
+
+.typo-p1 {
+    @include dkfz(30vw);
+    @include dklh(40vw);
+}
+
+.typo-p2 {
+    @include dkfz(22vw);
+    @include dklh(32vw);
+    font-weight: 400;
+}
+.typo-p3 {
+    @include dkfz(16vw);
+    @include dklh(22vw);
+    font-weight: 400;
+}
+
+
+
+
+.typo-ss {
+    font-weight: 300;
+    @include dkfz(14vw);
+    @include dklh(18vw);
+    opacity: 0.8;
+}
+
+
+
+.typo-circbtn {
+    font-weight: 700;
+    @include dkfz(14vw);
+    @include dklh(18vw);
+    @include dkls(1.5vw);
+    text-transform: uppercase;
+}
+
+.typo-link {
+    font-weight: 700;
+    @include dkfz(20vw);
+    @include dklh(30vw);
+    @include dkls(2vw);
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+.typo-marquee {
+    @include dkfz(50vw);
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    opacity: 0.1;
+}
+
+.typo-portttl {
+    @include dkfz(52vw);
+    font-weight: 700;
+}
+
+.typo-menubg {
+    text-transform: uppercase;
+    font-weight: 700;
+    @include dkfz(420vw);
+    @include dklh(300vw);
+    letter-spacing: -4.9vw;
+    color: #fff;
+    opacity: 0.01;
+}
