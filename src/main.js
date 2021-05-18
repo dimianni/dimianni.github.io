@@ -544,7 +544,7 @@ export function appInit() {
 
         const formData = new FormData(this)
 
-        fetch('www.dimianni.com/inc/sendEmail.php', {
+        fetch('https://dimianni.com/inc/sendEmail.php', {
             method: 'POST',
             body: formData
         }).then(function (response) {
