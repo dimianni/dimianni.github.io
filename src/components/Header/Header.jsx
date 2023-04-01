@@ -90,6 +90,7 @@ export default function Header(){
                 .to(logoD, 0.35, {
                     y: -logoH
                 }, 'together')
+        
         }, header)
 
         return () => ctx.revert()
@@ -98,16 +99,16 @@ export default function Header(){
 
     return (
         <header ref={header}>
-            <div className="header-logo fixed w-36 h-6 overflow-hidden">
-                <a className="header-logo--n w-full h-full flex justify-start" href="/" target="_blank" rel="noopener noreferrer">
+            <div className="header-logo fixed z-999 top-[2.5vw] left-[3vw] w-36 h-6 overflow-hidden">
+                <a className="header-logo--n translate-y-0 w-full h-full flex justify-start" href="/" target="_blank" rel="noopener noreferrer">
                     <img src="assets/dimianni_logo-n.svg" className="object-cover w-full h-full" alt="Dimianni" />
                 </a>
-                <a className="header-logo--d w-full h-full flex justify-start" href="/" target="_blank" rel="noopener noreferrer">
+                <a className="header-logo--d translate-y-0 w-full h-full flex justify-start" href="/" target="_blank" rel="noopener noreferrer">
                     <img src="assets/dimianni_logo-d.svg" className="object-cover w-auto h-full" alt="Dimianni" />
                 </a>
             </div>
-            <div className="header-menu fixed">
-                <ul className="header-menu__list flex text-white opacity-80 font-light text-xs md:text-base xl:text-lg">
+            <div className="header-menu fixed z-999 top-[2.5vw] right-[3vw]">
+                <ul className="header-menu__list hidden md:flex text-white opacity-80 font-light text-xs md:text-base xl:text-lg">
                     <li className="header-menu__list-el relative w-24 h-20">
                         <a className="link smoothScroll absolute z-10 w-full h-full flex justify-end align-top" href="#works">
                             <span className="link-span">works</span>
@@ -124,7 +125,7 @@ export default function Header(){
                         </a>
                     </li>
                 </ul>
-                <div onClick={handleBurgerClick} className="header-menu__burger w-6 h-4">
+                <div onClick={handleBurgerClick} className="header-menu__burger block md:hidden w-6 h-4">
                     <div id="burger" className="burger-icon">
                         <span></span>
                         <span></span>
@@ -134,9 +135,9 @@ export default function Header(){
                 </div>
             </div>
 
-            <div className={`mobile-menu fixed bg-main overflow-hidden w-full h-screen ${burgerActive ? "active" : ""}`}>
+            <div className={`mobile-menu fixed z-998 translate-x-full transition-transform duration-300 bg-main overflow-hidden w-full h-screen ${burgerActive ? "active" : ""}`}>
                 <div className="container h-full flex justify-center items-center relative text-white">
-                    <div className="absolute top-1/2 left-0 -translate-y-1/2 uppercase font-bold text-10xl opacity-01 tracking-tightest leading-tightest">
+                    <div className="mobile-menu__bgtext absolute top-1/2 left-0 -translate-y-1/2 uppercase font-bold text-10xl opacity-01 tracking-tightest leading-tightest">
                         <p>Me</p>
                         <p>nu</p>
                     </div>
@@ -144,7 +145,7 @@ export default function Header(){
                         <div className="w-3/5 flex flex-col justify-end font-normal">
                             {socials.map((social, i) => (<a key={i} className="my-1" href={social.link} target="_blank" rel="noopener noreferrer">{social.name}</a>)) }
                         </div>
-                        <div className="w-2/5 flex flex-col justify-between font-medium text-3xl">
+                        <div className="mobile-menu__wrapper-socials w-2/5 flex flex-col justify-between font-medium text-3xl">
                             <a href="/" className="menu-el relative my-4 smoothScroll">
                                 <span>Home</span>
                             </a>

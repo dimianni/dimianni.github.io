@@ -10,6 +10,7 @@ module.exports = {
         'dark-grey': '#323232',
         'main': '#151515',
         'main2': '#323232',
+        'main3': '#383838',
         'orange': '#fe8e23',
         'yellow': '#ffa63d',
         'blue': '#00c0ff',
@@ -32,6 +33,12 @@ module.exports = {
       },
       lineHeight: {
         tightest: '.75',
+      },
+      zIndex: {
+        '1': '1',
+        '2': '2',
+        '998': '998',
+        '999': '999',
       }
     },
     container: {

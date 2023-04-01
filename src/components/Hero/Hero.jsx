@@ -24,7 +24,6 @@ export default function Hero() {
 
 
     useLayoutEffect(() => {
-
         let ctx = gsap.context(() => {
             const myHeroImg = gsap.timeline({
                 scrollTrigger: {
@@ -46,7 +45,7 @@ export default function Hero() {
             <div className="container">
                 <div className="hero-wrapper w-full pt-28 md:pt-32 lg:pt-36 relative">
                     <div className="hero-wrapper__hey w-full relative text-white text-4xl md:text-6xl xl:text-7xl">
-                        <div className="hey-name font-medium relative">
+                        <div className="hey-name -z-2 font-medium relative">
                             <p className="font-light opacity-80 text-xl md:text-2xl xl:text-3xl">Hey!</p>
                             <div className="flex flex-col">
                                 <div className="papa overflow-hidden">
@@ -57,12 +56,12 @@ export default function Hero() {
                                 </div>
                             </div>
                         </div>
-                        <div ref={heyPic} className="hey-pic absolute left-0 right-0 ml-auto mr-auto w-1/2 h-auto lg:w-4/12">
-                            <div className="w-full h-full relative bg-dark-grey">
-                                <img type="image/webp" src="assets/kurtyak.webp" alt="Dimianni" className="relative left-1/2 -translate-x-2/4 w-auto h-full object-contain" />
+                        <div ref={heyPic} className="hey-pic absolute -z-1 translate-y-5 sm:translate-y-8 left-0 right-0 ml-auto mr-auto w-1/2 h-auto lg:w-4/12">
+                            <div className="w-full h-auto relative bg-dark-grey">
+                                <img type="image/webp" src="assets/kurtyak.webp" alt="Dimianni" className="relative left-1/2 -translate-x-2/4 w-full h-auto object-contain" />
                             </div>
                             <div className="absolute left-1/2 -translate-x-2/4 -top-4.5 w-2/3 h-2/3">
-                                <img src={`assets/duome/duome_${heyPicIndex}.png`} className="w-full h-auto object-contain" alt="Dimianni" />
+                                <img type="image/webp" src={`assets/duome/duome_${heyPicIndex}.webp`} className="w-full h-auto object-contain" alt="Dimianni" />
                             </div>
                         </div>
                         <div className="font-medium w-max ml-auto mt-24 md:mt-48">

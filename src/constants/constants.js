@@ -2,7 +2,7 @@ export const works = [
     {
         name: "Dvizh",
         link: "https://dvizh.studio/en/",
-        image: "SpherePNG.png",
+        image: "SpherePNG.webp",
         description: "I built a landing page for Dvizh, a motion design studio which specializes in creating commercials and graphic video solutions for businesses.",
         bgColor: "orange"
     },
@@ -16,15 +16,15 @@ export const works = [
     {
         name: "Outspoken",
         link: "https://dimianni.github.io/outspoken/",
-        image: "outspoken-pf.jpg",
+        image: "outspoken-pf.webp",
         description: "Outspoken is one of my personal projects. It is a quote library website which serves to distribute thoughts and knowledge of well- known people.",
         bgColor: "greyish"
     }
 ]
 
 export const facts = [
-    'At the moment, I am based in Malaga, Spain.', 
-    'Recently I graduated from Northern State University with a degree in MIS and minor in CS.', 
+    'At the moment, I split my time between Málaga and Sevilla, Spain.', 
+    'In 2022 I graduated from Northern State University with a degree in MIS and minor in CS.', 
     'I speak four languages: English, Spanish, Ukrainian, Russian.', 
     'I enjoy surfing and snowboarding.', 
     'Discovering new technologies in web is my passion. Currently, I am learning React and Node.'
@@ -32,21 +32,22 @@ export const facts = [
 
 export const experiences = [
     {
-        from: "Jun 2019 —",
-        to: "Jun 2020",
-        html: "I learned the fundamentals of web development and experimented by doing personal projects, such as..."
+        from: "Sep 2019 —",
+        to: "Sep 2020",
+        html: 'I learned the fundamentals of web development and experimented by doing personal projects, such as <a class="underline" href="https://dimianni.github.io/surf/" target="_blank" rel="noopener noreferrer">Go-Surf</a> landing page. Later on, I explored React by creating a <a class="underline" href="https://dimianni.github.io/covid-19-stats/" target="_blank" rel="noopener noreferrer">Covid-19 Tracker</a>, a <a class="underline" href="https://dimianni.github.io/facedetector-app/" target="_blank" rel="noopener noreferrer">Face-Detection App</a> and <a class="underline" href="https://dimianni.github.io/outspoken/" target="_blank" rel="noopener noreferrer">Outspoken</a>.'
     },
     {
         from: "Sep 2020 —",
         to: "May 2022",
-        html: " I worked at Northern State University web department. My job there included working with Drupal CMS modules to allow easier and more flexible content creation.I also performed updates and bug fixes on the main site, as well as help with other internal projects."
+        html: 'I worked at <a class="underline" href="https://northern.edu/" target="_blank" rel="noopener noreferrer">Northern State University</a> web department. My job there included working with Drupal CMS modules to allow easier and more flexible content creation. I also performed updates and bug fixes on the main site, as well as help with other internal projects.'
     },
     {
-        from: "May 2022 —",
-        to: "Future",
-        html: "I am looking for a software company to join after I graduate in May 2022. So, if you liked what you saw on this website, and you think I might be a good fit in your company please contact me!"
+        from: "Sep 2022 —",
+        to: "Ongoing",
+        html: "I began my journey as a Configuration Engineer at Solera Inc. I keep exploring the world of web developent and strengthening my developent skills!"
     }
 ]
+
 
 export const technologies = ["javascript", "react", "nextjs", "nodejs", "tailwindcss", "sass", "webpack", "gulp", "drupal"]
 
