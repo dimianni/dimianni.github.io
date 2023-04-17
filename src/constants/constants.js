@@ -1,9 +1,9 @@
 export const works = [
     {
         name: "Dvizh",
-        link: "https://dvizh.studio/en/",
+        link: "https://designed.promo/",
         image: "SpherePNG.webp",
-        description: "I built a landing page for Dvizh, a motion design studio which specializes in creating commercials and graphic video solutions for businesses.",
+        description: "I built a landing page for Designed, a motion design studio which specializes in creating commercials and graphic video solutions for businesses.",
         bgColor: "orange"
     },
     {
@@ -18,6 +18,13 @@ export const works = [
         link: "https://dimianni.github.io/outspoken/",
         image: "outspoken-pf.webp",
         description: "Outspoken is one of my personal projects. It is a quote library website which serves to distribute thoughts and knowledge of well- known people.",
+        bgColor: "greyish"
+    },
+    {
+        name: "TheDreamTeam",
+        link: "https://thedreamteam.vercel.app/",
+        image: "thedreamteam.webp",
+        description: "TheDreamTeam is a Next JS app where you can search for your favorite football/soccer team and check its latest squad. Moreover, the app has an authentification option made with Firebase.",
         bgColor: "greyish"
     }
 ]
