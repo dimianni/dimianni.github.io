@@ -1,0 +1,8 @@
+export { default as About } from './About/About'
+export { default as Contact } from './Contact/Contact'
+export { default as Footer } from './Footer/Footer'
+export { default as Header } from './Header/Header'
+export { default as Hero } from './Hero/Hero'
+export { default as Intro } from './Intro/Intro'
+export { default as Tech } from './Tech/Tech'
+export { default as Works } from './Works/Works'

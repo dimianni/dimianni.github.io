@@ -120,42 +120,14 @@
         }
         &--bottom {
             &_link {
-                transition: all 0.35s cubic-bezier(0.3, 0.86, 0.36, 0.95);
-                & span {
-                    &::after {
-                        content: "";
-                        position: absolute;
-                        bottom: -15px;
-                        width: 15px;
-                        height: 15px;
-                        border-radius: 50%;
-                        background-color: #4c6ccb;
-                        transition: all 0.35s cubic-bezier(0.3, 0.86, 0.36, 0.95);
-                    }
-                    &:hover::after {
-                        bottom: -20px;
-                        width: 20px;
-                        height: 20px;
-                        transition: all 0.35s cubic-bezier(0.3, 0.86, 0.36, 0.95);
+                width: max-content;
+                margin-left: auto;
+                &:hover {
+                    .arrow {
+                        transform: rotate(-45deg);
                     }
                 }
             }
-        }
-        // Work number 1
-        &:nth-child(1) .works-el--top {
-            background-color: #fe8e23;
-        }
-        // Work number 2
-        &:nth-child(2) .works-el--top {
-            background-color: #00c0ff;
-        }
-        // Work number 3
-        &:nth-child(3) .works-el--top {
-            background-color: #434343;
-        }
-        // Work number 4
-        &:nth-child(4) .works-el--top {
-            background-color: #000;
         }
     }
 }

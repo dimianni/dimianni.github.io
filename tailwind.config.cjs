@@ -11,9 +11,10 @@ module.exports = {
         'main': '#151515',
         'main2': '#323232',
         'main3': '#383838',
-        'orange': '#fe8e23',
         'yellow': '#ffa63d',
+        'orange': '#fe8e23',
         'blue': '#00c0ff',
+        'pink': '#f0725c',
         'greyish': '#434343'
       },
       spacing: {

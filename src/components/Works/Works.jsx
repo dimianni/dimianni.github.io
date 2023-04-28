@@ -1,6 +1,7 @@
-import { useEffect, useLayoutEffect, useRef } from "react";
+import { useLayoutEffect, useRef } from "react";
 import { works } from "../../constants/constants"
 import { gsap } from "gsap";
+import WorkCard from "../WorkCard/WorkCard";
 
 export default function Works() {
 
@@ -69,37 +70,7 @@ export default function Works() {
                         <div className="h-0.01 w-full bg-white opacity-30"></div>
                     </div>
                     <div ref={allWorks} className="works-wrapper__content flex flex-wrap">
-                        {
-                            works.map((work, i) => {
-                                return(
-                                    <div key={i} className="works-el mb-8">
-                                        <div className="works-el--cont relative">
-                                            <h3 className="title absolute z-1 top-0 left-0 pointer-events-none m-0 font-bold uppercase text-4xl sm:text-5xl lg:text-6xl">
-                                                {
-                                                    [...work.name].map((char, i) => <span className="relative text-main" key={i}>{char}</span>)
-                                                }
-                                            </h3>
-                                            <a href={work.link} className={`works-el--top scale-y-100 block relative overflow-hidden ml-auto h-96 md:h-80 lg:h-128 w-10/12 md:w-4/5 ${"bg-"+work.bgColor}`}
-                                                target="_blank" rel="noopener noreferrer">
-                                                <div className="works-el--top_img absolute top-0 left-0 bottom-0 right-0 overflow-hidden w-full flex justify-center items-center">
-                                                    <img className="w-full h-auto object-contain" type="image/png" src={`assets/works/${work.image}`} alt={work.name} />
-                                                </div>
-                                            </a>
-                                            <div className="works-el--bottom mt-4 mb-6 lg:mt-8 ml-auto w-10/12 md:w-4/5">
-                                                <div className="text-sm lg:text-base xl:text-lg mb-3">
-                                                    <p>{work.description}</p>
-                                                </div>
-                                                <a href={work.link}
-                                                    className="works-el--bottom_link text-base lg:text-lg xl:text-xl w-full flex justify-start items-center" target="_blank"
-                                                    rel="noopener noreferrer">
-                                                    <span className="">View project</span>
-                                                </a>
-                                            </div>
-                                        </div>
-                                    </div>
-                                )
-                            })
-                        }
+                        {works.map((work, i) => <WorkCard key={i} work={work} />)}
                     </div>
                 </div>
             </div>

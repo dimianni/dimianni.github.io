@@ -1,39 +1,43 @@
 export const works = [
     {
-        name: "Dvizh",
+        name: "Designed",
         link: "https://designed.promo/",
-        image: "SpherePNG.webp",
-        description: "I built a landing page for Designed, a motion design studio which specializes in creating commercials and graphic video solutions for businesses.",
-        bgColor: "orange"
+        image: { name: "SpherePNG.webp", width: "w-3/4" },
+        bg: "bg-orange",
+        tech: ["React", "Next.js", "GSAP"],
+        description: "I built a marketing website for Designed, a motion design studio which specializes in creating commercials and graphic video solutions for businesses."
     },
     {
         name: "Talvi",
         link: "https://talvi-ukraine.com/",
-        image: "tlv.svg",
-        description: "I carried out an e-store redesign for Talvi, the leading headgear wholesaling company based in Ukraine.",
-        bgColor: "blue"
+        image: { name: "tlv.svg", width: "w-full" },
+        bg: "bg-blue",
+        tech: ["Opencart CMS", "PHP"],
+        description: "I carried out an e-store redesign for Talvi, the leading headgear wholesaling company based in Ukraine."
     },
     {
-        name: "Outspoken",
-        link: "https://dimianni.github.io/outspoken/",
-        image: "outspoken-pf.webp",
-        description: "Outspoken is one of my personal projects. It is a quote library website which serves to distribute thoughts and knowledge of well- known people.",
-        bgColor: "greyish"
+        name: "TFB",
+        link: "https://the-football-blog.vercel.app/",
+        image: { name: "tfb.webp", width: "w-2/5" },
+        bg: "bg-pink",
+        tech: ["React", "Next.js", "Hygraph", "GraphQL", "TailwindCSS"],
+        description: "TheFootballBlog is a blog-type website where admins can publish latest football news."
     },
     {
-        name: "TheDreamTeam",
+        name: "TDT",
         link: "https://thedreamteam.vercel.app/",
-        image: "thedreamteam.webp",
-        description: "TheDreamTeam is a Next JS app where you can search for your favorite football/soccer team and check its latest squad. Moreover, the app has an authentification option made with Firebase.",
-        bgColor: "greyish"
+        image: { name: "thedreamteam.webp", width: "w-2/5" },
+        bg: "bg-black",
+        tech: ["React", "Next.js", "Firebase Auth", "TailwindCSS"],
+        description: "TheDreamTeam is a Next JS app where you can search for your favorite football/soccer team and check its latest squad. Moreover, the app has an authentification option made with Firebase."
     }
 ]
 
 export const facts = [
-    'At the moment, I split my time between Málaga and Sevilla, Spain.', 
-    'In 2022 I graduated from Northern State University with a degree in MIS and minor in CS.', 
-    'I speak four languages: English, Spanish, Ukrainian, Russian.', 
-    'I enjoy surfing and snowboarding.', 
+    'At the moment, I split my time between Málaga and Sevilla, Spain.',
+    'In 2022 I graduated from Northern State University with a degree in MIS and minor in CS.',
+    'I speak four languages: English, Spanish, Ukrainian, Russian.',
+    'I enjoy surfing and snowboarding.',
     'Discovering new technologies in web is my passion. Currently, I am learning React and Node.'
 ]
 

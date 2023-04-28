@@ -1,14 +1,6 @@
-import Header from './components/Header/Header'
-import Hero from './components/Hero/Hero'
-import Intro from './components/Intro/Intro'
-import Works from './components/Works/Works'
-import About from './components/About/About'
-import Tech from './components/Tech/Tech'
-import Contact from './components/Contact/Contact'
-import Footer from './components/Footer/Footer'
+import { Header, Hero, Intro, Works, About, Tech, Contact, Footer } from './components'
 
-function App() {
-
+export default function App() {
   return (
     <>
       <Header />
@@ -24,5 +16,3 @@ function App() {
     </>
   )
 }
-
-export default App
