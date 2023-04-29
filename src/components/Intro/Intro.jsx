@@ -101,25 +101,17 @@ export default function Intro() {
             <div className="container relative">
                 <div className="w-full relative text-white">
                     <div className="w-full ml-auto font-medium text-3xl">
-
-                        <div className="mb-3 font-medium text-3xl md:text-5xl xl:text-6xl">
-                            <div className="emoji-cont lg:cursor-none relative">
-                                <p>I’m a <span className="font-bold">fan of web.</span> </p>
-                                <div className="emoji">💻</div>
-                            </div>
-                        </div>
-
                         <div>
                             <p ref={suptitle} className="emoji-cont lg:cursor-none relative mb-12 md:mb-16 lg:mb-16 xl:mb-28 font-medium text-3xl md:text-5xl xl:text-6xl">
-                                <span className="suptitle-el opacity-5">I love building websites that&nbsp;</span>
-                                <span className="suptitle-el opacity-5">solve business problems by&nbsp;</span>
-                                <span className="suptitle-el opacity-5">combining efficiency&nbsp;</span>
+                                <span className="suptitle-el opacity-5">I love building user interfaces <br /></span>
+                                <span className="suptitle-el opacity-5">that solve business problems by <br /></span>
+                                <span className="suptitle-el opacity-5">combining efficiency <br /></span>
                                 <span className="suptitle-el opacity-5">and attractiveness.</span>
                                 <span className="emoji">⚙️</span>
                             </p>
                             <p className="emoji-cont lg:cursor-none relative w-1/2 ml-auto font-normal text-base md:text-xl xl:text-2xl">
                                 <span>
-                                    Bringing designers’ creative solutions to life and implementing websites’ functionality is what I enjoy the most
+                                    Bringing designers’ creative solutions to life and implementing websites’ functionality is what I enjoy the most!
                                 </span>
                                 <span className="emoji">🎨</span>
                             </p>

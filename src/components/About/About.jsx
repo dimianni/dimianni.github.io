@@ -106,8 +106,8 @@ export default function About() {
                                         <div key={i} className="experiences-el transition-all border-b border-main3 py-7 opacity-30 flex items-start flex-col lg:flex-row">
                                             <div className="title mb-2 relative w-full text-main uppercase font-bold text-4xl lg:text-5xl">
                                                 <div className="date flex flex-col">
-                                                    <span>{experience.from}</span>
-                                                    <span>{experience.to}</span>
+                                                    <span>{experience.from}{experience.to !== "" && " —"}</span>
+                                                    <span>{experience.to !== "" && experience.to}</span>
                                                 </div>
                                                 <div className="circle absolute w-2.5 h-2.5 -top-2.5 left-0 rounded-full bg-main2"></div>
                                             </div>

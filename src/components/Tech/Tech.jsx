@@ -99,8 +99,8 @@ export default function Tech() {
                             {
                                 technologies.map((tech, i) => {
                                     return (
-                                        <div key={i} className="w-24 xl:w-32 p-2 opacity-30 hover:opacity-100 transition-opacity">
-                                            <img className="w-full h-auto object-contain" src={`assets/tech/${tech}.svg`} alt={tech} />
+                                        <div key={i} className="flex items-center justify-center max-w-full max-h-full h-full w-24 xl:w-32 p-2 opacity-30 hover:opacity-100 transition-opacity">
+                                            <img className="max-w-full max-h-full w-auto h-auto object-contain" src={`assets/tech/${tech}.svg`} alt={tech} />
                                         </div>
                                     )
                                 })
