@@ -2,34 +2,34 @@ export const works = [
     {
         name: "Designed",
         link: { url: "https://designed.promo/" },
-        image: { name: "SpherePNG.webp", width: "w-3/4" },
+        image: { name: "SpherePNG.webp", width: "w-full" },
         bg: "bg-orange",
         tech: ["React", "Next.js", "GSAP"],
         description: "I built a marketing website for Designed, a motion design studio which specializes in creating commercials and graphic video solutions for businesses."
     },
     {
-        name: "Talvi",
-        link: { url: "https://talvi-ukraine.com/" },
-        image: { name: "tlv.svg", width: "w-full" },
+        name: "Cine",
+        link: { url: "https://cine-ten.vercel.app/", repo: "https://github.com/dimianni/cine" },
+        image: { name: "cine.jpg", width: "w-full" },
         bg: "bg-blue",
-        tech: ["Opencart CMS", "PHP"],
-        description: "I carried out an e-store redesign for Talvi, the leading headgear wholesaling company based in Ukraine."
+        tech: ["React", "Next.js", "MongoDB", "Redux", "Next-Auth"],
+        description: "Cine is a Next.js app where users can search and save movies they'd like to watch."
     },
     {
-        name: "TFB",
+        name: "BALLON",
         link: { url: "https://the-football-blog.vercel.app/", repo: "https://github.com/dimianni/thedreamteam" },
-        image: { name: "tfb.webp", width: "w-2/5" },
+        image: { name: "ballon1.jpg", width: "w-full" },
         bg: "bg-pink",
         tech: ["React", "Next.js", "Hygraph", "GraphQL", "TailwindCSS"],
-        description: "TheFootballBlog is a blog-type website where admins can publish latest football news."
+        description: "Ballon is a blog-type website where admins can publish latest football news."
     },
     {
-        name: "TDT",
+        name: "SQUAD",
         link: { url: "https://thedreamteam.vercel.app/", repo: "https://github.com/dimianni/TheFootballBlog" },
-        image: { name: "thedreamteam.webp", width: "w-2/5" },
+        image: { name: "squad.jpg", width: "w-full" },
         bg: "bg-black",
         tech: ["React", "Next.js", "Firebase Auth", "TailwindCSS"],
-        description: "TheDreamTeam is a Next JS app where users can search for their favorite football/soccer team and check its latest squad. Besides, the app has an authentification feature made with Firebase."
+        description: "Squad is a Next JS app where users can search for their favorite football/soccer team and check its latest squad. Besides, the app has an authentification feature made with Firebase."
     }
 ]
 

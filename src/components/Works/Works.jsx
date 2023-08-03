@@ -34,7 +34,7 @@ export default function Works() {
                             duration: 0.35
                         }, 'together')
                         .to(workImgInner, {
-                            transform: 'scaleY(0.9) scale3d(1, 1, 1)',
+                            transform: 'scaleX(1.1) scale3d(1.2, 1.2, 1.2)',
                             duration: 0.35
                         }, 'together')
                         .to(workTitleSpan, {
