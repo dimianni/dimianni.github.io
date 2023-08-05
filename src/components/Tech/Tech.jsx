@@ -95,7 +95,7 @@ export default function Tech() {
                 </div>
                 <div className="tech-content relative w-full h-24 md:h-32 xl:h-40">
                     <ul ref={techMarquee} className="absolute top-0 bottom-0 right-0 flex">
-                        <li className="min-w-[300vw] md:min-w-[200vw] lg:min-w-[150vw] xl:min-w-[150vw] list-none flex items-center justify-around">
+                        <li className="min-w-[300vw] md:min-w-[200vw] lg:min-w-[150vw] xl:min-w-[140vw] list-none flex items-center justify-around">
                             {
                                 technologies.map((tech, i) => {
                                     return (
