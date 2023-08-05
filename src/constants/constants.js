@@ -35,7 +35,7 @@ export const works = [
 
 export const facts = [
     'At the moment, I split my time between Málaga and Sevilla, Spain.',
-    'In 2022 I graduated from Northern State University with a degree in MIS and minor in CS.',
+    'I graduated from Northern State University with a degree in MIS and a minor in CS.',
     'I speak four languages: English, Spanish, Ukrainian, Russian.',
     'I enjoy surfing and snowboarding.',
     'Discovering new technologies in web is my passion. Currently, I am learning Typescript and Firebase.'
