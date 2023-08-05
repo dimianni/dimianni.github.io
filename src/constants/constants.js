@@ -8,24 +8,24 @@ export const works = [
         description: "I built a marketing website for Designed, a motion design studio which specializes in creating commercials and graphic video solutions for businesses."
     },
     {
-        name: "Cine",
-        link: { url: "https://cine-ten.vercel.app/", repo: "https://github.com/dimianni/cine" },
+        name: "Cine",  
+        link: { url: "https://thecine.vercel.app/", repo: "https://github.com/dimianni/cine" },
         image: { name: "cine.webp", width: "w-full" },
         bg: "bg-blue",
         tech: ["React", "Next.js", "MongoDB", "Redux", "Next-Auth", "TailwindCSS"],
         description: "Cine is a Next.js app where users can search and save movies they'd like to watch."
     },
     {
-        name: "BALLON",
-        link: { url: "https://the-football-blog.vercel.app/", repo: "https://github.com/dimianni/thedreamteam" },
+        name: "Ballon",
+        link: { url: "https://theballon.vercel.app/", repo: "https://github.com/dimianni/ballon" },
         image: { name: "ballon-alter.webp", width: "w-full" },
         bg: "bg-pink",
         tech: ["React", "Next.js", "Hygraph", "GraphQL", "TailwindCSS"],
         description: "Ballon is a blog-type website where admins can publish latest football news."
     },
     {
-        name: "SQUAD",
-        link: { url: "https://thedreamteam.vercel.app/", repo: "https://github.com/dimianni/TheFootballBlog" },
+        name: "Squad",
+        link: { url: "https://topsquad.vercel.app/", repo: "https://github.com/dimianni/squad" },
         image: { name: "squad.webp", width: "w-full" },
         bg: "bg-black",
         tech: ["React", "Next.js", "Firebase Auth", "TailwindCSS"],
