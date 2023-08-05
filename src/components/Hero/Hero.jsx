@@ -1,27 +1,13 @@
-import { useLayoutEffect, useEffect, useRef, useState } from "react";
+import { useLayoutEffect, useRef } from "react";
 import { gsap } from "gsap";
+import useTimer from "../../hooks/useTimer";
 
 
 export default function Hero() {
 
-    let timer;
     const heroSec = useRef()
     const heyPic = useRef()
-    const [heyPicIndex, setHeyPicIndex] = useState(1)
-
-    const updateCount = () => {
-        timer = !timer && setInterval(() => {
-            setHeyPicIndex(prevIndex => prevIndex + 1)
-        }, 1000)
-
-        if (heyPicIndex === 7) setHeyPicIndex(1)
-    }
-
-    useEffect(() => {
-        updateCount()
-        return () => clearInterval(timer)
-    }, [heyPicIndex])
-
+    const heyPicIndex = useTimer(7)
 
     useLayoutEffect(() => {
         let ctx = gsap.context(() => {

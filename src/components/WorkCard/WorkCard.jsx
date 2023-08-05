@@ -10,7 +10,7 @@ export default function WorkCard({ work }) {
                         [...work.name].map((char, i) => <span className="relative text-main" key={i}>{char}</span>)
                     }
                 </h3>
-                <a href={work.link} className={cls("works-el--top block relative overflow-hidden ml-auto h-96 md:h-80 lg:h-128 w-10/12 md:w-4/5", work.bg)}
+                <a href={work.link.url} className={cls("works-el--top block relative overflow-hidden ml-auto h-96 md:h-80 lg:h-128 w-10/12 md:w-4/5", work.bg)}
                     target="_blank" rel="noopener noreferrer">
                     <div className="works-el--top_img absolute top-0 left-0 bottom-0 right-0 overflow-hidden w-full h-auto flex justify-center items-center">
                         <img className={cls("h-auto object-contain", work.image.width)} type="image/png" src={`assets/works/${work.image.name}`} alt={work.name} />

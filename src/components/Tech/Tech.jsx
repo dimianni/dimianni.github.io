@@ -93,14 +93,19 @@ export default function Tech() {
                         </div>
                     </div>
                 </div>
-                <div className="tech-content relative w-full h-20 xl:h-28">
+                <div className="tech-content relative w-full h-24 md:h-32 xl:h-40">
                     <ul ref={techMarquee} className="absolute top-0 bottom-0 right-0 flex">
-                        <li className="min-w-[100vw] list-none flex items-center justify-around">
+                        <li className="min-w-[300vw] md:min-w-[200vw] lg:min-w-[150vw] 2xl:min-w-[150vw] list-none flex items-center justify-around">
                             {
                                 technologies.map((tech, i) => {
                                     return (
-                                        <div key={i} className="flex items-center justify-center max-w-full max-h-full h-full w-24 xl:w-32 p-2 opacity-30 hover:opacity-100 transition-opacity">
-                                            <img className="max-w-full max-h-full w-auto h-auto object-contain" src={`assets/tech/${tech}.svg`} alt={tech} />
+                                        <div key={i} className="flex flex-col items-center justify-center max-w-full max-h-full p-2 opacity-30 hover:opacity-100 transition-opacity">
+                                            <div className="icon flex items-center justify-center w-16 md:w-24 xl:w-32">
+                                                <img src={`assets/tech/${tech.image}.svg`} alt={tech} />
+                                            </div>
+                                            <div className="name mt-2 font-medium xl:text-xl">
+                                                <p>{tech.name}</p>
+                                            </div>
                                         </div>
                                     )
                                 })
