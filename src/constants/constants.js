@@ -28,8 +28,8 @@ export const works = [
         link: { url: "https://topsquad.vercel.app/", repo: "https://github.com/dimianni/squad" },
         image: { name: "squad.webp", width: "w-full" },
         bg: "bg-black",
-        tech: ["React", "Next.js", "Firebase Auth", "TailwindCSS"],
-        description: "Squad is a Next JS app where users can search for their favorite football/soccer team and check its latest squad. Besides, the app has an authentification feature made with Firebase."
+        tech: ["Typescript", "React", "Next.js", "TailwindCSS"],
+        description: "Squad is a Next JS app where users can search for their favorite football/soccer team and check its latest squad."
     }
 ]
 
@@ -72,6 +72,10 @@ export const technologies = [
     {
         name: "Next.js",
         image:"nextjs"
+    },
+    {
+        name: "Typescript",
+        image: "typescript"
     },
     {
         name: "Redux",
