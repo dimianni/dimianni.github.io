@@ -103,10 +103,11 @@ export default function Intro() {
                     <div className="w-full ml-auto font-medium text-3xl">
                         <div>
                             <p ref={suptitle} className="emoji-cont lg:cursor-none relative mb-12 md:mb-16 lg:mb-16 xl:mb-28 font-medium text-3xl md:text-5xl xl:text-6xl">
-                                <span className="suptitle-el opacity-5">I am passionate about utilizing technology to <br /></span>
-                                <span className="suptitle-el opacity-5">solve complex problems and drive business growth. <br /></span>
-                                <span className="suptitle-el opacity-5">Experienced in providing web development services  <br /></span>
-                                <span className="suptitle-el opacity-5">rand unning web projects. </span>
+                                <span className="suptitle-el opacity-5">I am passionate about utilizing <br /></span>
+                                <span className="suptitle-el opacity-5">technology to solve complex problems  <br /></span>
+                                <span className="suptitle-el opacity-5">and drive business growth. Experienced <br /></span>
+                                <span className="suptitle-el opacity-5">in providing web development services </span>
+                                <span className="suptitle-el opacity-5">and running web projects. </span>
                                 <span className="emoji">⚙️</span>
                             </p>
                             <p className="emoji-cont lg:cursor-none relative w-1/2 ml-auto font-normal text-base md:text-xl xl:text-2xl">
