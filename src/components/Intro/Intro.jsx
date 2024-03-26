@@ -103,15 +103,15 @@ export default function Intro() {
                     <div className="w-full ml-auto font-medium text-3xl">
                         <div>
                             <p ref={suptitle} className="emoji-cont lg:cursor-none relative mb-12 md:mb-16 lg:mb-16 xl:mb-28 font-medium text-3xl md:text-5xl xl:text-6xl">
-                                <span className="suptitle-el opacity-5">I love building user interfaces <br /></span>
-                                <span className="suptitle-el opacity-5">that solve business problems by <br /></span>
-                                <span className="suptitle-el opacity-5">combining efficiency <br /></span>
-                                <span className="suptitle-el opacity-5">and attractiveness.</span>
+                                <span className="suptitle-el opacity-5">I am passionate about utilizing technology to <br /></span>
+                                <span className="suptitle-el opacity-5">solve complex problems and drive business growth. <br /></span>
+                                <span className="suptitle-el opacity-5">Experienced in providing web development services  <br /></span>
+                                <span className="suptitle-el opacity-5">rand unning web projects. </span>
                                 <span className="emoji">⚙️</span>
                             </p>
                             <p className="emoji-cont lg:cursor-none relative w-1/2 ml-auto font-normal text-base md:text-xl xl:text-2xl">
                                 <span>
-                                    Bringing designers’ creative solutions to life and implementing websites’ functionality is what I enjoy the most!
+                                    Always eager to learn new technologies and stay up to date with the latest industry trends.
                                 </span>
                                 <span className="emoji">🎨</span>
                             </p>

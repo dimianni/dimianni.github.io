@@ -53,10 +53,10 @@ export default function Hero() {
                         <div className="font-medium w-max ml-auto mt-24 md:mt-48">
                             <h2 className="flex flex-col">
                                 <div className="papa overflow-hidden">
-                                    <p className="son">— I'm a frontend</p>
+                                    <p className="son">— I'm a web</p>
                                 </div>
                                 <div className="hapa overflow-hidden">
-                                    <p className="son">developer.</p>
+                                    <p className="son">enthusiast.</p>
                                 </div>
                             </h2>
                         </div>
